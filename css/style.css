@@ -1,4 +1,4 @@
-@font-face {
+3@font-face {
 	font-family: 'Avenir Next';
 	src: url('/fonts/Avenir Next.tfc');
 }
@@ -18,7 +18,7 @@ h1 {
 	line-height: 75px;
 }
 
-h1 header{
+h1 .custom-header{
 	color: #ffffff;
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
 	font-size: 16px;
