@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('/fonts/Avenir Next.tfc');
+}
+
+body {
+	font-family: 'Avenir Next';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
