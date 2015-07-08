@@ -46,8 +46,9 @@ h2{
 
 h3{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
+/*	font-size: 20px;
+*/	font-weight: 600;
+	font-size: 16px;
 	line-height: 27px;
 	letter-spacing: 3px;
 	color: #9B9B9B;
@@ -111,6 +112,14 @@ li{
     font-size: 16px;
     line-height: 22px;
 }
+
+li .custom-header-list {
+	font-family: 'Avenir Next', 'Cabin', sans-serif;
+    color: #4A4A4A;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 ol{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
