@@ -115,21 +115,21 @@ li{
 
 }
 
-.menubar-header {
+#sidebar-header {
 	font-size: 16px;
 	line-height: 22px;
 	padding-top: 1rem;
 }
 
 
-.menubar-item{
+#sidebar-item{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
     font-size: 16px;
     line-height: 38px;
 }
 
-.menubar-list{
+#sidebar-list{
 	text-decoration: none;
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
