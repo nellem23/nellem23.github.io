@@ -4,10 +4,19 @@
 }
 
 body {
-	font-family: 'Avenir Next';
+	font-family: 'Avenir Next', 'Cabin', sans-serif;
+    color: #4A4A4A;
+    font-size: 14px;
+    line-height: 22px;
 }
 
-h1,
+h1 {
+	font-style: 'Avenir Next', 'Cabin', sans-serif;
+	color:#000000;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 36px;
+}
 h2,
 h3,
 h4,
@@ -20,5 +29,15 @@ p {
 }
 
 blockquote {
+
+}
+
+.header{
+	background-color: #016FC4;
+
+}
+
+.menubar {
+	background-color: #F7F6F6;
 
 }
