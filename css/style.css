@@ -18,12 +18,12 @@ h1 {
 	line-height: 75px;
 }
 
-.content-header {
-	font-family: 'Crimson Text', serif;
-	color:#343434;
-	font-weight: 400;
-	font-size: 54px;
-	line-height: 75px;
+.content h1 {	
+    font-family: 'Crimson Text', serif;  color:#343434;  
+    font-weight: 600;  
+    font-size: 42px;  
+    line-height: 64px;
+    text-transform: none;
 }
 
 #header-title{
@@ -35,7 +35,7 @@ h1 {
 
 .header li a {
 	font-size: 14px;
-	line-height: 28px;
+	line-height: 48px;
 	color: #ffffff;
 	display: block;
 }
