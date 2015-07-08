@@ -1,4 +1,4 @@
-3@font-face {
+@font-face {
 	font-family: 'Avenir Next';
 	src: url('/fonts/Avenir Next.tfc');
 }
@@ -18,7 +18,7 @@ h1 {
 	line-height: 75px;
 }
 
-h1 .custom-header{
+.custom-header{
 	color: #ffffff;
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
 	font-size: 16px;
@@ -46,8 +46,7 @@ h2{
 
 h3{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
-/*	font-size: 20px;
-*/	font-weight: 600;
+	font-weight: 600;
 	font-size: 16px;
 	line-height: 27px;
 	letter-spacing: 3px;
@@ -55,8 +54,10 @@ h3{
 	text-transform: uppercase;
 
 }
-h3.menubar-header {
-	line-height: 38;
+
+.menubar-header {
+	font-size: 16px;
+	line-height: 38px;
 }
 
 
@@ -103,7 +104,7 @@ ul{
     line-height: 22px;
 }
 
-ul.menubar-list{
+.menubar-list{
 	text-decoration: none;
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
@@ -118,7 +119,7 @@ li{
     line-height: 22px;
 }
 
-li.menubar-item{
+.menubar-item{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
     font-size: 16px;
@@ -126,7 +127,7 @@ li.menubar-item{
 }
 
 
-li.custom-header-list {
+.custom-header-list {
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     font-size: 16px;
     line-height: 22px;
