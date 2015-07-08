@@ -25,7 +25,15 @@ h1 header{
 	font-weight: 400;
 	line-height: 0px;
 	letter-spacing: 2px;
+}
 
+.header h1, .header h1 a, .header h1 a:visited {
+	color: #ffffff;
+	font-family: 'Avenir Next', 'Cabin', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 0px;
+	letter-spacing: 2px; 
 }
 
 h2{
@@ -80,6 +88,18 @@ ul.menu-items{
 }
 
 a {
+	color: #016FC4;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #016FC4;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:hover{
 	color: #016FC4;
 	font-weight: 600;
 	text-decoration: none;
