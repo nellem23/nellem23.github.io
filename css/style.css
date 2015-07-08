@@ -55,6 +55,10 @@ h3{
 	text-transform: uppercase;
 
 }
+h3.menubar-header {
+	line-height: 38;
+}
+
 
 h4{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
@@ -67,21 +71,6 @@ h4{
 }
 
 p {
-	font-family: 'Avenir Next', 'Cabin', sans-serif;
-    color: #4A4A4A;
-    font-size: 16px;
-    line-height: 22px;
-}
-
-ul{
-	font-family: 'Avenir Next', 'Cabin', sans-serif;
-    color: #4A4A4A;
-    font-size: 16px;
-    line-height: 22px;
-}
-
-ul.menu-items{
-	text-decoration: none;
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
     font-size: 16px;
@@ -106,6 +95,22 @@ a:hover{
 	text-decoration: none;
 }
 
+
+ul{
+	font-family: 'Avenir Next', 'Cabin', sans-serif;
+    color: #4A4A4A;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+ul.menubar-list{
+	text-decoration: none;
+	font-family: 'Avenir Next', 'Cabin', sans-serif;
+    color: #4A4A4A;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 li{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
@@ -113,11 +118,22 @@ li{
     line-height: 22px;
 }
 
-li .custom-header-list {
+li.menubar-item{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
     font-size: 16px;
+    line-height: 38px;
+}
+
+
+li.custom-header-list {
+	font-family: 'Avenir Next', 'Cabin', sans-serif;
+    font-size: 16px;
     line-height: 22px;
+    display: block;
+    float: left;
+    color: #ffffff;
+
 }
 
 ol{
