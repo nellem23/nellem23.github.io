@@ -122,21 +122,12 @@ li{
 }
 
 
-#sidebar-item{
+.sidebar-item{
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
     color: #4A4A4A;
     font-size: 16px;
     line-height: 38px;
 }
-
-#sidebar-list{
-	text-decoration: none;
-	font-family: 'Avenir Next', 'Cabin', sans-serif;
-    color: #4A4A4A;
-    font-size: 16px;
-    line-height: 22px;
-}
-
 
 .custom-header-list {
 	font-family: 'Avenir Next', 'Cabin', sans-serif;
