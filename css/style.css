@@ -190,7 +190,7 @@ blockquote {
 	bottom: 0;
 	right: 0;
 	position: absolute;
-	left: 300px;
+	left: 230px;
 	top: 0;
 	overflow-x:hidden;
 	overflow-y:scroll;
@@ -231,8 +231,8 @@ blockquote {
 
 #main {
 	float: left;
-	overflow: scroll;
-    width: 440px;
+	overflow-y: scroll;
+    width: 550px;
     margin-left: 30px;
     margin-right: 30px;
     background-color: #ffffff;
@@ -243,19 +243,29 @@ blockquote {
 	padding-left: 30px;
 	padding-right: 30px;
 	overflow-y:scroll;
-	width: 440px;
 }
 
-#content #summary-example .code-example {
+.code {}
+
+#code-example {
 	float: right;
 	right: 0;
 	left: 60%;
 	position: relative;
-	z-index: 2;
+	z-index: 200;
 	margin-left: 45%;
 	padding: 42px 0 50px;
 	color: #dde4e8;
 }
+
+#code-wrapper {
+	padding-left: 30px;
+	padding-right: 30px;
+	overflow-y:scroll;
+}
+
+.code-example-part {}
+
 
 #content #summary-example .code-example .code-example-part{
 	padding: 30px 40px;
