@@ -121,7 +121,7 @@ li{
 }
 
 
-.header{
+#header{
 	background-color: #016FC4;
 	z-index: 100;
 
@@ -223,7 +223,8 @@ blockquote {
 
 #background .background-actual {
 	bottom: 0;
-	left: 45%;
+	left: 60%;
+	width: 421px;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -233,8 +234,15 @@ blockquote {
 #main {
 	float: left;
 	overflow: scroll;
+    width: 440px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #ffffff;
+
 }
 
 #code {
 	float: right;
+	right: 0;
+	left: 60%;
 }
