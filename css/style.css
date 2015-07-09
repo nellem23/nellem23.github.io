@@ -95,19 +95,19 @@ p {
 
 a {
 	color: #016FC4;
-	font-weight: 600;
+	font-weight: 400;
 	text-decoration: none;
 }
 
 a:visited {
 	color: #016FC4;
-	font-weight: 600;
+	font-weight: 400;
 	text-decoration: none;
 }
 
 a:hover{
-	color: #016FC4;
-	font-weight: 600;
+	color: #015291;
+	font-weight: 400;
 	text-decoration: none;
 }
 
@@ -196,6 +196,15 @@ blockquote {
 	overflow-y:scroll;
 }
 
+@media (min-width: 1180px){ 
+	body:not(.no-literate) .content {
+	padding-left: 0;
+	padding-right: 0;
+	width: 985;
+	max-width: none;
+	}
+}
+
 @media screen and (max-width: 1030px) {
 	#background {
 		left:0;
@@ -250,20 +259,25 @@ blockquote {
 #code-example {
 	float: right;
 	right: -60px;
-	width: 320px;
-	position: relative;
 	z-index: 200;
+	color: #dde4e8;
+    background-color: rgb(148, 148, 148);
+    top: -30px;
+    bottom: 0;
+    width: 35%;
+    height: 800px;
+    overflow-y: scroll;
+    position: relative;
+
 }
 
 #code-wrapper {
-	padding-left: 30px;
-	padding-right: 30px;
-	overflow-y:scroll;
+	background-color: rgb(148, 148, 148);
 }
 
 .code-example-part {}
 
-p .code-example-part {
+.code-example-part p {
 	color: #dde4e8;
 }
 
