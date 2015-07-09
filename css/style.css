@@ -26,6 +26,12 @@ h1 {
     text-transform: none;
 }
 
+#header{
+	background-color: #016FC4;
+	z-index: 200 !important;
+
+}
+
 #header-title{
     color: #ffffff;
     font-size: 24px;
@@ -121,12 +127,6 @@ li{
 }
 
 
-#header{
-	background-color: #016FC4;
-	z-index: 100;
-
-}
-
 .menubar {
 	background-color: #F7F6F6;
 
@@ -190,9 +190,8 @@ blockquote {
 	bottom: 0;
 	right: 0;
 	position: absolute;
-	left: 221px;
+	left: 300px;
 	top: 0;
-	z-index: 50;
 	overflow-x:hidden;
 	overflow-y:scroll;
 }
@@ -208,7 +207,6 @@ blockquote {
 		left:181px;
 	}
 	#content {
-		left: 181px;
 	}
 }
 
@@ -241,8 +239,24 @@ blockquote {
 
 }
 
-#code {
+#main-wrapper{
+	padding-left: 30px;
+	padding-right: 30px;
+	overflow-y:scroll;
+	width: 440px;
+}
+
+#content #summary-example .code-example {
 	float: right;
 	right: 0;
 	left: 60%;
+	position: relative;
+	z-index: 2;
+	margin-left: 45%;
+	padding: 42px 0 50px;
+	color: #dde4e8;
+}
+
+#content #summary-example .code-example .code-example-part{
+	padding: 30px 40px;
 }
