@@ -249,13 +249,10 @@ blockquote {
 
 #code-example {
 	float: right;
-	right: 0;
-	left: 60%;
+	right: -60px;
+	width: 320px;
 	position: relative;
 	z-index: 200;
-	margin-left: 45%;
-	padding: 42px 0 50px;
-	color: #dde4e8;
 }
 
 #code-wrapper {
@@ -265,6 +262,10 @@ blockquote {
 }
 
 .code-example-part {}
+
+p .code-example-part {
+	color: #dde4e8;
+}
 
 
 #content #summary-example .code-example .code-example-part{
