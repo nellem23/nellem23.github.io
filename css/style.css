@@ -60,7 +60,8 @@ h5{
 }
 
 h5 #header-title{
-    padding-left: 10px;
+    padding-left: 20px!important;
+    line-height: 40px !important;
 }
 
 p {
@@ -117,6 +118,11 @@ li{
 
 }
 
+.header .left {
+	float: left;
+	width: 50% !important;
+}
+
 .header li a {
 	font-size: 14px;
 	line-height: 48px;
@@ -147,6 +153,10 @@ li{
 .menubar {
 	background-color: #F7F6F6;
 
+}
+
+.menubar .section {
+	padding:10px 30px !important;
 }
 
 #sidebar {
@@ -190,7 +200,7 @@ blockquote {
 
 #logo {
     float: left;
-    width: 50px;
+    width: 40px;
     display: block;
 }
 
@@ -267,7 +277,12 @@ blockquote {
 #main-wrapper{
 }
 
-.code {}
+.code {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
 
 #code-example {
 	float: right;
@@ -290,7 +305,7 @@ blockquote {
 }
 
 .code-example-part p {
-	color: #dde4e8;
+	color: #ffffff;
 }
 
 
