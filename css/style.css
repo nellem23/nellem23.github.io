@@ -123,12 +123,17 @@ li{
 
 .header{
 	background-color: #016FC4;
+	z-index: 100;
 
 }
 
 .menubar {
 	background-color: #F7F6F6;
 
+}
+
+#sidebar {
+	z-index: 90;
 }
 
 #sidebar-header {
@@ -180,6 +185,18 @@ blockquote {
 	background-color: #ffffff;
 }
 
+#content {
+	background-color: #ffffff;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	left: 221px;
+	top: 0;
+	z-index: 50;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
 @media screen and (max-width: 1030px) {
 	#background {
 		left:0;
@@ -189,6 +206,9 @@ blockquote {
 @media screen and (max-width: 1300px) {
 	#background {
 		left:181px;
+	}
+	#content {
+		left: 181px;
 	}
 }
 
@@ -208,4 +228,13 @@ blockquote {
 	right: 0;
 	top: 0;
 	background:#2B2B2B;
+}
+
+#main {
+	float: left;
+	overflow: scroll;
+}
+
+#code {
+	float: right;
 }
